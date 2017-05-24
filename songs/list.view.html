@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Songs</h1>
+        </div>
+        <br/>
+
+
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" ng-repeat="song in vm.allSongs">
+            <img ng-src={{song.imgPath}} alt={{song.id}}  class="img-responsive eachSongImg">
+            <p>{{song.name}} <span > <a ng-click="vm.deleteUser(song.id)"><span class="glyphicon glyphicon-play-circle"></span></a> <a ng-click="vm.downloadSong(song.id)"><span class="glyphicon glyphicon-download-alt"></span></a> <a ng-click="vm.deleteSong(song.id)"><span class="glyphicon glyphicon-remove"></span></a></span></p>
+        </div>
+    </div>
+</div>

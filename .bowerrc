@@ -1,0 +1,9 @@
+{
+  "directory": "bower",
+  "cwd": "./",
+  "analytics": false,
+  "registry": "http://bower.herokuapp.com",
+  "proxy": "http://5013003440:2bv11IS133_may@43.88.64.10:8080",
+  "https-proxy": "http://5013003440:2bv11IS133_may@43.88.64.10:8080",
+  "strict-ssl": false
+}
